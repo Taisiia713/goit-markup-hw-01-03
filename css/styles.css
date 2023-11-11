@@ -34,7 +34,7 @@ li {
   text-transform: uppercase;
 }
 
-.header {
+.header-links {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -42,11 +42,8 @@ li {
   color: #2e2f42;
 }
 
-.header:hover {
-  color: #404bbf;
-}
-
-.header:focus {
+.header-links:hover,
+.header-links:focus {
   color: #404bbf;
 }
 
@@ -78,7 +75,7 @@ li {
   color: #ffffff;
 }
 
-.button {
+.first-section-btn {
   cursor: pointer;
   color: #ffffff;
   background-color: #4d5ae5;
@@ -87,17 +84,17 @@ li {
   letter-spacing: 0.04em;
 }
 
-.button:hover {
+.first-section-btn:hover {
   background-color: rgba(64, 75, 191, 1);
 }
 
-.button:focus {
+.first-section-btn:focus {
   background-color: #404bbf;
 }
 
 /*Our advantages*/
 
-.text-title {
+.section-second-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -105,7 +102,7 @@ li {
   letter-spacing: 0.02em;
 }
 
-.text {
+.section-second-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -113,7 +110,7 @@ li {
 
 /*Our team*/
 
-.our-team {
+.section-team-main-title {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
