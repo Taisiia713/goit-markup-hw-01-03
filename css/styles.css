@@ -48,11 +48,18 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-hero {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav-container {
   display: flex;
-  align-items: baseline;
+
+  align-items: center;
 }
 
 .list-header-nav-containers {
@@ -137,6 +144,8 @@ p {
   background-color: #2e2f42;
   height: 600px;
   flex-shrink: 0;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .main-title {
@@ -148,6 +157,15 @@ p {
   color: #ffffff;
   margin-bottom: 48px;
   padding-top: 188px;
+  max-width: 496px;
+}
+
+.btn-order {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .button {
@@ -170,6 +188,19 @@ p {
 /* Section 2 */
 /*Our advantages*/
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .section-second {
   display: flex;
 }
@@ -181,6 +212,10 @@ p {
   justify-content: space-between;
   gap: 24px;
   padding-left: 0;
+}
+
+.list-items-section-two {
+  width: calc((100% - 72px) / 4);
 }
 
 .text-title {
@@ -229,6 +264,13 @@ p {
 
 .team {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.name-list {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 /* Section 4 */
@@ -237,7 +279,8 @@ p {
 .image-portfolio-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
   padding-left: 0;
   margin-bottom: 48px;
 }
@@ -250,6 +293,7 @@ p {
 .text-portfolio {
   text-align: left;
   padding-left: 16px;
+  margin-bottom: 8px;
 }
 
 .our-portfolio {
@@ -259,6 +303,14 @@ p {
 .list-items-portfolio {
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
+  width: calc((100% - 48px) / 3);
+}
+
+.app-name-list {
+  padding-top: 32px;
+  padding-bottom: 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 /*Footer*/
@@ -274,9 +326,12 @@ p {
 .footer {
   background-color: #2e2f42;
   height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-logo {
+  display: inline-block;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -284,6 +339,7 @@ p {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 16px;
 }
 
 .footer-text {
