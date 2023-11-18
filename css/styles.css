@@ -14,6 +14,7 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 0;
+  padding-left: 0;
 }
 
 img {
@@ -35,6 +36,8 @@ p {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .section {
@@ -65,8 +68,6 @@ p {
 .list-header-nav-containers {
   display: flex;
   gap: 40px;
-  margin-top: 24px;
-  margin-bottom: 24px;
 }
 
 .contacts-header-container {
@@ -96,6 +97,7 @@ p {
 }
 
 .header-list-items {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -142,7 +144,6 @@ p {
 
 .first-section {
   background-color: #2e2f42;
-  height: 600px;
   flex-shrink: 0;
   padding-top: 188px;
   padding-bottom: 188px;
@@ -156,8 +157,9 @@ p {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 48px;
-  padding-top: 188px;
   max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn-order {
@@ -166,6 +168,8 @@ p {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button {
@@ -224,17 +228,13 @@ p {
   line-height: 1.2;
   color: #2e2f42;
   letter-spacing: 0.02em;
-  margin-top: 32px;
   margin-bottom: 8px;
-  text-align: center;
 }
 
 .text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
-  text-align: center;
 }
 
 /* Section 3 */
@@ -271,6 +271,7 @@ p {
 .name-list {
   padding-top: 32px;
   padding-bottom: 32px;
+  text-align: center;
 }
 
 /* Section 4 */
@@ -282,7 +283,6 @@ p {
   column-gap: 24px;
   row-gap: 48px;
   padding-left: 0;
-  margin-bottom: 48px;
 }
 
 .title-portfolio {
@@ -301,8 +301,6 @@ p {
 }
 
 .list-items-portfolio {
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
-  background: var(--WHITE, #fff);
   width: calc((100% - 48px) / 3);
 }
 
@@ -318,8 +316,6 @@ p {
   display: block;
   align-items: center;
   justify-content: flex-start;
-  padding-top: 100px;
-  padding-bottom: 102px;
 }
 
 .footer {
@@ -347,7 +343,6 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
-  margin-top: 18px;
 }
 
 .logo-studio {
